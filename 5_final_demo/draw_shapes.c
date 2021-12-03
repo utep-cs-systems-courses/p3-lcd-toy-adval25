@@ -1,6 +1,9 @@
 #include "draw_shapes.h"    
 #include "switches.h"
 
+short redrawScreen = 1;
+u_int controlFontColor = COLOR_GREEN;
+
 // Static Shape Variables
 static int square_h = 0, square_w = 0, square_row = 20, square_col = (screenWidth / 4);
 static char s1_state = 0, s2_state = 0; // states for squares to determine their color
