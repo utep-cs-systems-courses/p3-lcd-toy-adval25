@@ -122,13 +122,13 @@ update_shape(void)
   u_int text_color = (green << 5) | red;
   
   // Draw the word "state: -" on screen
-  drawChar5x7(text_col + (char_width * 0), text_row, 'S',text_color, COLOR_BLUE);
-  drawChar5x7(text_col + (char_width * 1), text_row, 'T',text_color, COLOR_BLUE);
-  drawChar5x7(text_col + (char_width * 2), text_row, 'A',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 0), text_row, 'B',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 1), text_row, 'U',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 2), text_row, 'T',text_color, COLOR_BLUE);
   drawChar5x7(text_col + (char_width * 3), text_row, 'T',text_color, COLOR_BLUE);
-  drawChar5x7(text_col + (char_width * 4), text_row, 'E',text_color, COLOR_BLUE);
-  drawChar5x7(text_col + (char_width * 5), text_row, ':',text_color, COLOR_BLUE);
-  drawChar5x7(text_col + (char_width * 6), text_row, ' ',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 4), text_row, 'O',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 5), text_row, 'N',text_color, COLOR_BLUE);
+  drawChar5x7(text_col + (char_width * 6), text_row, ':',text_color, COLOR_BLUE);
 
   // Change text output & location of shapes based on input 
 
